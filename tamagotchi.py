@@ -16,6 +16,6 @@ my_dog = Tamagotchi(uinput)
 opt = "1"
 my_dog.bark() 
 while opt != "3":
-    opt = input("interact, 1 = pet, 2 = feed, 3 = quit")
+    opt = input("interact, 1 = pet, 2 = feed, 3 = quit: ")
     if opt == "1":
         my_dog.pet()
